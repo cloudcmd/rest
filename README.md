@@ -1,4 +1,14 @@
-cloudcmd-rest
+CloudCmd REST
+=============
+**/api/v1/**
+
+FS
 =============
 
-CloudCmd REST
+**GET**
+
+**PUT**
+
+**DELETE**
+
+
