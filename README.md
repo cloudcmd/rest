@@ -2,7 +2,7 @@ CloudCmd REST
 =============
 **/api/v1/**
 
-|Name         |Method   |Body   |Description|
+|Name         |Method   |Body           |Description                    |
 |:------------|:--------|:--------------|:------------------------------|
 |fs           |GET      |               |get file or dir content        |
 |             |PUT      |file content   |create/save file               |
