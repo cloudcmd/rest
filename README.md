@@ -15,3 +15,4 @@ CloudCmd REST
 |``mv``       |PUT      |{from, to}     |mv file/dir                    |
 |``cp``       |PUT      |{from, to}     |copy file                      |
 |``zip``      |PUT      |{from}         |zip file                       |
+|``config``   |PUT      |{option:value} |change config                  |
