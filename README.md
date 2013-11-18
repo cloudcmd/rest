@@ -7,7 +7,7 @@ CloudCmd REST
 |``fs``       |GET      |               |get file or dir content        |
 |             |PUT      |file content   |create/save file               |
 |             |DELETE   |               |delete file                    |
-|``fs?size``  |GET      |               |get dir size                   |
+|``fs?size``  |GET      |               |get dir or file size           |
 |``fs?hash``  |GET      |               |get file hash                  |
 |``fs?dir``   |GET      |               |get dir content                |
 |             |PUT      |               |create dir                     |
