@@ -8,7 +8,8 @@ CloudCmd REST
 |             |         |`size`         |               |get dir or file size           |
 |             |         |`time`         |               |get time of file change        |
 |             |         |`hash`         |               |get file hash                  |
-|             |`PUT`    |               |file content   |create/save file               |
+|             |`PUT`    |               |file content   |create/write file              |
+|             |         | `unzip`       |file content   |unzip and create/write file    |
 |             |         | `dir`         |               |create dir                     |
 |             |`DELETE` |               |               |delete file                    |
 |             |         | `dir`         |               |delete dir                     |
