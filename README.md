@@ -2,7 +2,7 @@ CloudCmd REST
 =============
 **/api/v1/**
 
-|Name         |Method   |query          |Body               |Description                    |
+|Name         |Method   |Query          |Body               |Description                    |
 |:------------|:--------|:--------------|:------------------|:------------------------------|
 |``fs``       |`GET`    |               |                   |get file or dir content        |
 |             |         |`size`         |                   |get dir or file size           |
