@@ -15,7 +15,6 @@ CloudCmd REST
 |             |         | `dir`         |                   |create dir                     |
 |             |`PATCH`  |               |                   |patch file                     |
 |             |`DELETE` |               |                   |delete file                    |
-|             |         | `dir`         |                   |delete dir                     |
 |             |         |`files`        |Array of names     |delete files                   |
 |``mv``       |`PUT`    |               |{from, to}         |rename file/dir                |
 |``mv``       |`PUT`    |               |{from, names, to}  |mv files/dirs                  |
