@@ -17,7 +17,7 @@ CloudCmd REST
 |             |`DELETE` |               |                   |delete file                    |
 |             |         |`files`        |Array of names     |delete files                   |
 |`mv`         |`PUT`    |               |{from, to}         |rename file/dir                |
-|`mv`         |`PUT`    |               |{from, names, to}  |mv files/dirs                  |
+|             |         |               |{from, names, to}  |mv files/dirs                  |
 |`cp`         |`PUT`    |               |{from, names, to}  |copy files                     |
 |`zip`        |`PUT`    |               |{from}             |pack file                      |
 |`unzip`      |`PUT`    |               |{from}             |unpack file                    |
