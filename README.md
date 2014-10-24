@@ -2,7 +2,7 @@ CloudCmd REST
 =============
 **/api/v1/**
 
-|Name         |Method   |query          |Body           |Description                    |
+|Name         |Method   |query          |Body               |Description                    |
 |:------------|:--------|:--------------|:------------------|:------------------------------|
 |``fs``       |`GET`    |               |                   |get file or dir content        |
 |             |         |`size`         |                   |get dir or file size           |
@@ -21,7 +21,8 @@ CloudCmd REST
 |``mv``       |`PUT`    |               |{from, names, to}  |mv files/dirs                  |
 |``cp``       |`PUT`    |               |{from, names, to}  |copy files                     |
 |``zip``      |`PUT`    |               |{from}             |zip file                       |
-|``config``   |`PUT`    |               |{option:value}     |change config                  |
+|``config``   |`GET`    |               |                   |get config                     |
+|             |`PATCH`  |               |{option:value}     |change config                  |
 |``markdown`` |`GET`    |               |                   |parse markdown with path       |
 |             |         |`relative`     |                   |parse with relative path       |
 |             |`PUT`    |               |markdown           |parse with relative path       |
