@@ -25,4 +25,4 @@ CloudCmd REST
 |             |`PATCH`  |               |{option:value}     |change config                  |
 |``markdown`` |`GET`    |               |                   |parse markdown with path       |
 |             |         |`relative`     |                   |parse with relative path       |
-|             |`PUT`    |               |markdown           |parse with relative path       |
+|             |`PUT`    |               |raw markdown       |parse raw markdown             |
