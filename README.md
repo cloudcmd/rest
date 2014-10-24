@@ -8,9 +8,12 @@ CloudCmd REST
 |             |         |`size`         |                   |get dir or file size           |
 |             |         |`time`         |                   |get time of file change        |
 |             |         |`hash`         |                   |get file hash                  |
+|             |         |`beautify`     |                   |beautify js, html, css         |
+|             |         |`minify`       |                   |minify js, html, css           |
 |             |`PUT`    |               |file content       |create/write file              |
 |             |         | `unzip`       |file content       |unzip and create/write file    |
 |             |         | `dir`         |                   |create dir                     |
+|             |`PATCH`  |               |                   |patch file                     |
 |             |`DELETE` |               |                   |delete file                    |
 |             |         | `dir`         |                   |delete dir                     |
 |             |         |`files`        |Array of names     |delete files                   |
