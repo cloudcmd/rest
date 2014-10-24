@@ -13,7 +13,7 @@ CloudCmd REST
 |             |`PUT`    |               |file content       |create/write file              |
 |             |         | `unzip`       |file content       |unzip and create/write file    |
 |             |         | `dir`         |                   |create dir                     |
-|             |`PATCH`  |               |                   |patch file                     |
+|             |`PATCH`  |               |diff               |patch file                     |
 |             |`DELETE` |               |                   |delete file                    |
 |             |         |`files`        |Array of names     |delete files                   |
 |`mv`         |`PUT`    |               |{from, to}         |rename file/dir                |
