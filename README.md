@@ -20,7 +20,8 @@ CloudCmd REST
 |``mv``       |`PUT`    |               |{from, to}         |rename file/dir                |
 |``mv``       |`PUT`    |               |{from, names, to}  |mv files/dirs                  |
 |``cp``       |`PUT`    |               |{from, names, to}  |copy files                     |
-|``zip``      |`PUT`    |               |{from}             |zip file                       |
+|``zip``      |`PUT`    |               |{from}             |pack file                      |
+|``unzip``    |`PUT`    |               |{from}             |unpack file                    |
 |``config``   |`GET`    |               |                   |get config                     |
 |             |`PATCH`  |               |{option:value}     |change config                  |
 |``markdown`` |`GET`    |               |                   |parse markdown with path       |
